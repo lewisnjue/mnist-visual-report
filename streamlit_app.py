@@ -93,11 +93,6 @@ def main():
         else:
             st.info("Enable t-SNE in the sidebar to compute and visualize non-linear embeddings.")
 
-    # Screenshots or live demos (placeholder)
-    section_header("Screenshots or live demos")
-    st.write(
-        "After deployment to Streamlit Community Cloud, you can capture and add screenshots or provide a live link here."
-    )
 
     # Further improvements
     section_header("Further improvements")
@@ -110,7 +105,7 @@ def main():
 
     # Footer
     st.write("\n")
-    st.caption("Built with Streamlit. Data: MNIST via OpenML. © Your Name")
+    st.caption("Built with Streamlit. Data: MNIST via OpenML. © lewisnjue")
 
 
 if __name__ == "__main__":
