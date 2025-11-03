@@ -42,14 +42,13 @@ Classify 28×28 grayscale images of handwritten digits (0–9). The focus here i
    - Push this repo to GitHub (done in setup below)
    - In Streamlit Cloud, select the repo and set the entrypoint to `streamlit_app.py`
 
-### Screenshots or live demos 
-- Add screenshots or the deployed app URL here after deployment.
 
 ### Further improvements
 - Add a very fast baseline classifier on a small subset (e.g., LogisticRegression), and visualize confusion matrix, precision–recall curve, and ROC curve.
 - Persist precomputed embeddings (e.g., via `st.cache_data` export) to speed up initial loads on cloud.
 - Explore class-specific clusters in embeddings and nearest-neighbor error analysis.
 - Add controls to filter classes or compare subsets (e.g., 3 vs 5).
+- try training using a neural networ and a CNN to see how it performs 
 
 ---
 
